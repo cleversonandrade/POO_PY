@@ -11,3 +11,16 @@ class Pessoa:
         self.idade = idade
 p = Pessoa('Katia', 30)
 p.imprimir()
+
+#Herança
+class Profissional(Pessoa):
+    def __init__(self, nome, idade, profissao):
+        super().__init__(nome, idade)
+        self.profissao = profissao
+    def imprimir(self):
+        super().imprimir()
+        print('\t e trabalha como ', self.profissao)
+
+#Polimorfismo
+p = Profissional('Cleverson', 40, 'Estudante')
+p.imprimir()
