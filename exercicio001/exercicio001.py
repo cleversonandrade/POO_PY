@@ -11,3 +11,9 @@ class Veiculo:
 
 modelo_carro = Veiculo('Monza', 180, 10)
 modelo_carro.to_str()
+
+class Onibus(Veiculo):
+    pass
+
+onibus_escolar = Onibus('Scania', 120, 8)
+onibus_escolar.to_str()
