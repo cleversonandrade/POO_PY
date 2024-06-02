@@ -1,1 +1,1 @@
-## Estudos so POO ( Programação Orientada a Objetos em Python.
+## Estudos POO ( Programação Orientada a Objetos ) em Python.
